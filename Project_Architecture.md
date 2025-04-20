@@ -1,3 +1,4 @@
+
 strech-reminder/
 ├── exercises/
 │   ├── head_rotation.py
@@ -18,6 +19,25 @@ strech-reminder/
 ├── main.py               # Entry point: coordinates everything
 ├── requirements.txt
 └── .gitignore
+
+
+# GUI
+MainWindow
+├── HomeScreen
+│   ├── Start Button
+│   ├── Settings Button
+│   └── Exit Button
+├── CameraScreen
+│   ├── Video Feed
+│   ├── Instruction Subtitle
+│   └── "Back to Home" button
+├── StretchSettingsScreen
+│   ├── Checkboxes for exercises
+│   └── Save & Back buttons
+├── ReminderSettingsScreen
+│   ├── Timer interval input
+│   └── Save & Back buttons
+├── LogsScreen (Optional)
 
 
 📋 Working Plan – Step by Step
