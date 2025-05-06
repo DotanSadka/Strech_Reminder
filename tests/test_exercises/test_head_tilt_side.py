@@ -5,8 +5,8 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 
-from exercises.torso_twist import TorsoTwistExercise
+from exercises.head_tilt_side import HeadTiltSideExercise
 
 if __name__ == "__main__":
-    exercise = TorsoTwistExercise()
+    exercise = HeadTiltSideExercise()
     exercise.run()
